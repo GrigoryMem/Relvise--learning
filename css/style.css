@@ -30,7 +30,7 @@ html,
 body {
 	height: 100%;
 	line-height: 1;
- 
+	font-family: Montserrat;
 	font-size: 14px;
 	color: #252b42;
 	
@@ -69,6 +69,7 @@ body {
 	padding: 36px 0;
 	max-width: 371px;
 	width: 100%;
+	margin-bottom:80px;
 
 }
 
@@ -91,4 +92,70 @@ body {
 
 	/* margin-top:104px; */
 }
+
+
+.logo{
+	font-weight: 700;
+	font-size:24px;
+	letter-spacing: 0.1px;
+	line-height: 1.3333;
+}
+
+
+
+.nav__link{
+	position: relative;
+	color:#737373;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	font-weight: 600;
+	padding-bottom:5px;
+}
+
+
+.nav__link:after{
+	content:"";
+	position:absolute;
+	left:0;
+	bottom:10px;
+	display:block;
+	width:100%;
+	height: 2px;	
+	background-color:#737373d8;
+	
+	opacity: 0;
+	transition: all .3s linear;
+
+}
+
+.nav__link:hover{
+	color: rgba(9, 10, 10, 0.411);
+}
+
+
+
+
+.nav__link:hover:after{
+	opacity:1;
+	bottom:0;
+	background-color: #73737325;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
