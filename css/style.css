@@ -1839,11 +1839,22 @@ color: #737373;
 }
 
 .contact__body {
-	display: flex;
-	justify-content:space-between;
-	align-items: center;
+	
 }
+
+@media (min-width:767px){
+	.contact__body {
+		display: flex;
+		justify-content:space-between;
+		align-items: center;
+	}
+}
+
+
+
 .contact__content {
+	padding-right: 20px;
+	padding-bottom: 20px;
 }
 .contact__title {
 	font-weight: 700;
